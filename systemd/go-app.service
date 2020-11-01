@@ -1,0 +1,18 @@
+[Unit]
+	Description=go-app
+
+
+        [Service]
+        Type=simple
+        Restart=always
+        RestartSec=2s
+        #Environment=PORT=8080
+        ExecStart=/usr/local/bin/main
+
+
+        [Install]
+        WantedBy=multi-user.target
+
+        
+
+
