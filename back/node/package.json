@@ -1,0 +1,14 @@
+{
+  "name": "hw1",
+  "version": "1.0.0",
+  "description": "Nodejs Back-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pooya Kolahdoozan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
