@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Training</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<h1 class="header">SHA-256 Adder and even More!</h1>
+	
+<p class="monospace">In this section, you can enter two numbers and get the SHA-256 sum of them:</p>
+
+<div class="center">
+<form class="monospace"><label for="num1">First Number:</label><br /> <input id="num1" name="num1" type="text" /><br /> <label for="num2">Second Number:</label><br /> <input id="num2" name="num2" type="text" /></form>
+<p> <button onclick="sendRequest('post', 'go')" class="button button1">Go Request</button> <button onclick="sendRequest('post', 'node')" class="button button2" >Node Request</button></p>
+<textarea readonly class="textarea" id="answer1" name="answer1" rows="1" cols="50">
+</textarea></div>
+<p class="monospace">In this section, you can enter a number and get the nth element of the default document:</p> 
+<div class="center">
+<p><input id="line" name="numLine" type="text" /></p>
+<p><button onclick="sendRequest('get', 'go')" class="button button1" >Go Request</button> <button onclick="sendRequest('get', 'go')" class="button button2" >Node Request</button></p>
+<textarea readonly class="textarea" id="answer2" name="answer2" rows="1" cols="50">
+</textarea></div>
+<script src="js.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.header {
+  text-align: center;
+  font-family: "Allerta Stencil", Sans-serif;
+  padding: 10px 10px;
+  font-size: 40px;
+}
+
+.center {
+  text-align: center;
+}
+
+.monospace {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+.textarea {
+	width: 800px;
+	height: 30px;
+	border: 3px solid #cccccc;
+	resize: none;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+	font-size: 25px;
+	text-align: center;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
