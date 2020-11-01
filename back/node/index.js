@@ -33,7 +33,7 @@ app.post('/node/sha', (req, res) => {
 
 var fs = require('fs'),
     path = require('path'),    
-    filePath = path.join(__dirname,'..', 'text.txt');
+    filePath = path.join(__dirname,'..', 'sample.txt');
 
 app.get('/node/write', (req, res) => {
     if(req.query.lineNum == undefined){
