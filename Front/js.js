@@ -13,11 +13,11 @@ function sendRequest(req , lang) {
 	if (req == 'post'){
 		
 		if (lang == 'go'){
-		var url = host + "/go/sha";
+		var url = host + "/go/sha256";
 		}
 	
 		if (lang == 'node'){
-		var url = host + "/nodejs/sha";
+		var url = host + "/nodejs/sha256";
 		}
 		
 		request.open("POST", url, true);
